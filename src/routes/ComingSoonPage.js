@@ -1,8 +1,8 @@
-require('dotenv/config');
 import React, { Component } from "react";
 import withStyles from "@material-ui/core/styles";
 import Header from "../components/Header";
 import Poster from "../components/Poster";
+require('dotenv/config');
 
 const baseUrl = "https://api.themoviedb.org/3/movie/upcoming?page=1&api_key=${process.env.API_KEY}";
 const imgUrl = "https://image.tmdb.org/t/p/w500/";
